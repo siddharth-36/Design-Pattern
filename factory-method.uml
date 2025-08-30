@@ -1,0 +1,15 @@
+Creator (abstract)
+   - factoryMethod() : Product
+   + someOperation() 
+
+ConcreteCreatorA
+   - factoryMethod() returns ConcreteProductA
+
+ConcreteCreatorB
+   - factoryMethod() returns ConcreteProductB
+
+Product (interface)
+ConcreteProductA
+ConcreteProductB
+
+Client --> Creator

@@ -1,0 +1,8 @@
+Client --> AbstractFactory --> AbstractProductA
+                          |-> AbstractProductB
+                          
+ConcreteFactory1 --> ProductA1
+                   --> ProductB1
+
+ConcreteFactory2 --> ProductA2
+                   --> ProductB2
